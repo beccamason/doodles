@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+* {box-sizing: border-box;
+    height: 100vh;
+    width: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.box { 
+    width: 33.333%;
+    height: 33.333%;
+    font-family: 'Lexend', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 13%;
+    /* border-color: black;
+    border-style: double; */
+}
+
+.box1 {
+    animation-duration: 1.5s;
+    animation-name: box1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box1 {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.box2 {
+    opacity: 0%;
+    animation-delay: 0.7s;
+    animation-duration: 1.5s;
+    animation-name: box2;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box2 {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.box3 {
+    opacity: 0%;
+    animation-delay: 1.4s;
+    animation-duration: 1.5s;
+    animation-name: box3;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box3 {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.box5 {
+    animation-delay: 2s;
+    animation-name: box5;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box5 {
+    0% {
+        background-color: white;
+    }
+    33% {
+        background-color: black;
+        transform: rotate(0deg);
+    }
+    66%{
+        background-color: black;
+        transform: rotate(360deg);
+        border-radius: 0;
+    }
+    100% {
+        background-color: black;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+}
+
+.box52 {
+    transition: border-radius 2s;
+    border-radius: 50%;
+    transition-delay: 7s;
+}
+
+.box8 {
+    opacity: 0%;
+    animation-delay: 2s;
+    animation-duration: 1.5s;
+    animation-name: box8;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box8 {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.box7 {
+    opacity: 0%;
+    animation-delay: 4s;
+    animation-duration: 1.5s;
+    animation-name: box7;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box7 {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.box9 {
+    opacity: 0%;
+    animation-delay: 7s;
+    animation-duration: 1.5s;
+    animation-name: box9;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box9 {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
